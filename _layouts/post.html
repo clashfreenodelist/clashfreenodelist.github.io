@@ -1,0 +1,94 @@
+---
+layout: default
+---
+
+<div class="main-container">
+    <div class="content-area">
+        <article class="post">
+            <header class="post-header">
+                <h1 class="post-title">{{ page.title }}</h1>
+                <div class="post-meta">
+                    <span class="post-date">{{ page.date | date: "%Y-%m-%d" }}</span>
+                    {% if page.speed %}
+                    <span class="post-speed">{{ page.speed }}</span>
+                    {% endif %}
+                </div>
+            </header>
+
+            {% if page.image %}
+            <div class="post-image">
+                <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+            </div>
+            {% endif %}
+
+            <div class="post-content">
+                {{ content }}
+            </div>
+
+            <div class="post-tags">
+                {% for tag in page.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+            </div>
+
+            <div class="post-navigation">
+                {% if page.previous %}
+                <a href="{{ page.previous.url | relative_url }}" class="prev-post">
+                    ← {{ page.previous.title }}
+                </a>
+                {% endif %}
+                {% if page.next %}
+                <a href="{{ page.next.url | relative_url }}" class="next-post">
+                    {{ page.next.title }} →
+                </a>
+                {% endif %}
+            </div>
+        </article>
+    </div>
+
+    <!-- 右侧边栏 -->
+    <div class="sidebar">
+        {% if page.categories contains "nodes" %}
+        <div class="hot-posts">
+            <h2>节点热门文章</h2>
+            <ul>
+                {% for post in site.posts %}
+                {% if post.categories contains "nodes" %}
+                {% if forloop.index <= 5 %}
+                <li>
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </li>
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        {% if page.categories contains "news" %}
+        <div class="hot-posts">
+            <h2>新闻热门文章</h2>
+            <ul>
+                {% for post in site.posts %}
+                {% if post.categories contains "news" %}
+                {% if forloop.index <= 5 %}
+                <li>
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </li>
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        <div class="node-info">
+            <h2>节点信息</h2>
+            <div class="info-card">
+                <h3>今日更新</h3>
+                <p>节点数量：{{ site.data.stats.today_nodes }}</p>
+                <p>平均速度：{{ site.data.stats.avg_speed }}</p>
+            </div>
+        </div>
+    </div>
+</div> 

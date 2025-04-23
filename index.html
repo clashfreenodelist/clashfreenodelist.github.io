@@ -1,0 +1,80 @@
+---
+layout: default
+title: 首页
+---
+
+<!-- 横幅部分 -->
+<div class="banner">
+    <div class="banner-content">
+        <div class="banner-text">
+            <h1>Clash免费节点</h1>
+            <p>最新免费 Clash/VPN/V2ray节点分享，节点包含美国、日本、台湾、香港、新加坡等地常用节点。</p>
+        </div>
+        <div class="banner-image">
+            <img src="{{ site.baseurl }}/assets/images/hero-image.svg" alt="数据面板">
+        </div>
+    </div>
+</div>
+
+<!-- 主要内容区域 -->
+<div class="main-container">
+    <div class="content-area">
+        <!-- 最近更新文章 -->
+        <div class="recent-posts">
+            <h2>最近更新文章</h2>
+            <div class="posts-grid">
+                {% for post in site.posts %}
+                {% if post.categories contains "nodes" %}
+                <div class="post-card">
+                    {% if post.image %}
+                    <div class="post-image">
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+                    </div>
+                    {% endif %}
+                    <div class="post-content">
+                        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                        <p class="post-meta">
+                            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+                            <span class="post-speed">{{ post.speed }}</span>
+                        </p>
+                        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+                        <div class="post-tags">
+                            {% for tag in post.tags %}
+                            <span class="tag">{{ tag }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <!-- 侧边栏 -->
+    <div class="sidebar">
+        <div class="hot-posts">
+            <h2>热门文章</h2>
+            <ul>
+                {% for post in site.posts %}
+                {% if post.categories contains "nodes" %}
+                {% if forloop.index <= 5 %}
+                <li>
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </li>
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        
+        <div class="node-info">
+            <h2>节点信息</h2>
+            <div class="info-card">
+                <h3>今日更新</h3>
+                <p>节点数量：{{ site.data.stats.today_nodes }}</p>
+                <p>平均速度：{{ site.data.stats.avg_speed }}</p>
+            </div>
+        </div>
+    </div>
+</div> 

@@ -1,0 +1,201 @@
+---
+layout: default
+---
+<!-- 客户端页面横幅 -->
+<div class="banner client-banner">
+    <div class="banner-content">
+        <div class="banner-text">
+            <h1>客户端下载</h1>
+            <p>各设备系统科学上网客户端，含下载地址</p>
+        </div>
+    </div>
+</div>
+
+<!-- 主要内容区域 -->
+<div class="main-container">
+    <div class="content-wrapper">
+        <!-- 左侧内容区域 -->
+        <div class="content-area">
+            <div class="client-content">
+                {{ content }}
+            </div>
+        </div>
+        
+        <!-- 右侧侧边栏 -->
+        <div class="sidebar">
+            <div class="hot-posts">
+                <h2>热门文章</h2>
+                <ul>
+                    {% for post in site.posts limit:10 %}
+                    <li>
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+/* 内容包装器 */
+.content-wrapper {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: flex-start;
+}
+
+/* 左侧内容区域 */
+.content-area {
+    flex: 1;
+}
+
+/* 右侧侧边栏 */
+.sidebar {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.client-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 表格样式 */
+.client-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 0.95rem;
+}
+
+.client-content th {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.client-content td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: top;
+    line-height: 1.6;
+}
+
+.client-content tr:hover {
+    background-color: rgba(0,0,0,0.02);
+}
+
+/* 链接样式 */
+.client-content a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s;
+    margin-right: 0.5rem;
+    display: inline-block;
+    padding: 0.2rem 0;
+}
+
+.client-content a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+/* 粗体链接样式 */
+.client-content strong a {
+    font-weight: 600;
+}
+
+/* 注意事项和常见问题样式 */
+.client-content h2 {
+    color: var(--primary-color);
+    margin: 2rem 0 1rem;
+    font-size: 1.5rem;
+}
+
+.client-content ul, 
+.client-content ol {
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+
+.client-content li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+/* 侧边栏样式 */
+.hot-posts {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hot-posts h2 {
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+}
+
+.hot-posts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hot-posts li {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.hot-posts li:last-child {
+    border-bottom: none;
+}
+
+.hot-posts a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.hot-posts a:hover {
+    color: var(--primary-color);
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .client-content {
+        padding: 1rem;
+    }
+
+    .client-content table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .client-content th,
+    .client-content td {
+        min-width: 120px;
+    }
+
+    .client-content a {
+        margin-right: 0.3rem;
+    }
+}
+</style> 
