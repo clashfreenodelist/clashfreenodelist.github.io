@@ -1,19 +1,19 @@
 ---
 layout: post
 title: "2025年4月20日新发现节点推荐"
-date: 2025-04-20 12:00:00 +0800
+date: 2025-04-23 12:00:00 +0800
 categories: nodes
 tags: [Clash, V2ray, SSR, Shadowrocket]
 image: /assets/images/image.png
-speed: "19.4M/S"
+speed: "21.4M/S"
 
 ---
 
-这一次的节点更新覆盖了日本、欧洲、美国、香港、新加坡、加拿大、韩国等地区,最高速度可达19.4 M/S。只需复制下方的Clash/v2ray订阅链接,在客户端添加后即可正常使用。
+这一次的节点更新覆盖了日本、欧洲、美国、香港、新加坡、加拿大、韩国等地区,最高速度可达21.4 M/S。只需复制下方的Clash/v2ray订阅链接,在客户端添加后即可正常使用。
 
 # 新发现节点
 
-这次的更新跨足了美国、新加坡、加拿大、日本、欧洲、韩国、香港等多个地区，节点覆盖广泛，最高速度可达18.3 M/S。这意味着，无论您身处何处，都能享受到更快、更稳定的网络连接。这些新节点的加入，不仅为您提供了更广泛的网络覆盖，还能让您轻松解锁全球各地的网络内容，尽情畅游互联网。无论是日本的动漫、美国的影视、还是欧洲的新闻，都能够一手掌握。只需复制下方提供的v2ray/Clash订阅链接，添加到您的客户端，就能立即体验到新节点带来的畅快感受。这次更新的目的就是为了让您拥有更畅快、更愉悦的网络体验，享受高速流畅的网络连接。随着全球互联网的发展，网络已经成为我们生活中不可或缺的一部分，而这次更新就是为了让您更好地融入这个数字化的世界。
+本次更新的节点覆盖了新加坡、欧洲、韩国、加拿大、美国、日本、香港等多个地区,最高速度可达23 M/S。您只需复制下方提供的v2ray/Clash订阅链接,在客户端添加后即可正常使用。这些新添加的节点可以确保您享有更快、更稳定的网络速度,并轻松解锁不同地区的网络内容。如果您需要全球范围内高速流畅的节点,这次的更新一定不容错过。
 
 ### 高速机场推荐1【星辰VPN】
 
@@ -44,22 +44,25 @@ speed: "19.4M/S"
 ## 免费订阅链接
 
 **clash订阅链接**
-  - https://node.freeclashnode.com/uploads/2025/04/0-20250420.yaml
-  - https://node.freeclashnode.com/uploads/2025/04/1-20250420.yaml
-  - https://node.freeclashnode.com/uploads/2025/04/2-20250420.yaml
-  - https://node.freeclashnode.com/uploads/2025/04/3-20250420.yaml
-  - https://node.freeclashnode.com/uploads/2025/04/4-20250420.yaml
+ - https://node.v2raygithub.com/uploads/2025/04/0-20250423.yaml
+ - https://node.v2raygithub.com/uploads/2025/04/1-20250423.yaml
+ - https://node.v2raygithub.com/uploads/2025/04/2-20250423.yaml
+ - https://node.v2raygithub.com/uploads/2025/04/3-20250423.yaml
+ - https://node.v2raygithub.com/uploads/2025/04/4-20250423.yaml
+
 
 
 **v2ray订阅链接:**
-  - https://node.freeclashnode.com/uploads/2025/04/0-20250420.txt   
-  - https://node.freeclashnode.com/uploads/2025/04/1-20250420.txt
-  - https://node.freeclashnode.com/uploads/2025/04/2-20250420.txt
-  - https://node.freeclashnode.com/uploads/2025/04/3-20250420.txt
-  - https://node.freeclashnode.com/uploads/2025/04/4-20250420.txt
+ - https://node.v2raygithub.com/uploads/2025/04/0-20250423.txt
+ - https://node.v2raygithub.com/uploads/2025/04/1-20250423.txt
+ - https://node.v2raygithub.com/uploads/2025/04/2-20250423.txt
+ - https://node.v2raygithub.com/uploads/2025/04/3-20250423.txt
+ - https://node.v2raygithub.com/uploads/2025/04/4-20250423.txt
+
 
 **sing-box订阅链接**
-  - https://node.freeclashnode.com/uploads/2025/04/20250420.json
+  - https://node.v2raygithub.com/uploads/2025/04/20250423.json
+
 
 
 如果您需要高质量的付费服务,我们强烈推荐您试试「[星辰VPN](https://168.138.167.139/#/register?code=tpwfnPBH)」。提供全球范围内快速稳定的高速节点,轻松处理8K高清视频流量,并可解锁流媒体网站和chatGPT。其服务器性能出色,确保您享受到高品质的体验。 
