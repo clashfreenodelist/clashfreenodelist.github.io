@@ -5,7 +5,7 @@ date: 2024-04-19
 author: "网站编辑"
 category: "news"
 tags: ["中美关系", "贸易战", "关税谈判", "国际新闻"]
-image: "https://dss0.zbstatic5.com/s3fs-public/styles/article_large_full/public/articles/2025/04/20/431308324.jpg?2908508"
+image: https://cdn.pixabay.com/photo/2017/09/01/13/30/trump-2704264_1280.jpg
 excerpt: "美国总统特朗普虽表示中美对话良好，但分析认为双方及特朗普幕僚内部对推进贸易谈判存在分歧，突破僵局希望渺茫。"
 ---
 

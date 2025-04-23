@@ -4,7 +4,7 @@ title: "Clash免费节点 | 4月19日19.4M/S|免费Shadowrocket/V2ray/SSR/Clash�
 date: 2024-04-19
 categories: [节点更新, nodes]
 tags: [Clash, V2ray, SSR, Shadowrocket]
-image: /assets/images/image.png
+image: https://cdn.pixabay.com/photo/2020/12/19/16/41/fox-5844892_1280.jpg
 speed: "19.4M/S"
 ---
 

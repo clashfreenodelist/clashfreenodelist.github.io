@@ -4,7 +4,7 @@ title: "2025年4月20日新发现节点推荐"
 date: 2025-04-20 12:00:00 +0800
 categories: nodes
 tags: [Clash, V2ray, SSR, Shadowrocket]
-image: /assets/images/image.png
+image: https://cdn.pixabay.com/photo/2017/01/14/12/59/iceland-1979445_1280.jpg
 speed: "19.4M/S"
 
 ---
