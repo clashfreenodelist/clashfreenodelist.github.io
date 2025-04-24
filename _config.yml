@@ -1,7 +1,39 @@
 title: Clash免费节点
-description: 最新免费 Clash/VPN/V2ray节点分享
+description: 最新免费 Clash/VPN/V2ray节点分享，提供美国、日本、香港、新加坡等地区高速稳定节点
+keywords: Clash节点, 免费节点, V2ray节点, Shadowrocket节点, SSR节点, VPN, 科学上网
+author: Clash节点
+language: zh-CN
+timezone: Asia/Shanghai
 baseurl: ""
-url: "http://localhost:4000"
+url: "https://clashfreenodelist.github.io" 
+
+# 社交媒体链接
+social:
+  twitter: your-twitter
+  github: clashfreenodelist.github.io
+  telegram: your-telegram
+
+# SEO 设置
+twitter:
+  username: freeV2rayX
+  card: summary_large_image
+
+# Open Graph 设置
+og_image: /assets/images/og-image.jpg
+facebook:
+  app_id: your-fb-app-id
+
+# 站点地图设置
+sitemap:
+  filename: "/sitemap.xml"
+  exclude:
+    - "/atom.xml"
+    - "/feed.xml"
+    - "/feed/index.xml"
+  include_posts:
+    - "/index.html"
+  change_frequency_name: "daily"
+  priority_name: "0.5"
 
 # 构建设置
 markdown: kramdown
@@ -22,12 +54,16 @@ defaults:
     values:
       layout: "post"
       author: "Clash节点"
+      comments: true
+      toc: true
+      permalink: /:year/:month/:day/:title/
 
 # 插件
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-redirect-from
 
 # 排除文件
 exclude:
@@ -39,7 +75,7 @@ exclude:
   - .gitignore
 
 # 分页设置
-paginate: 10
+paginate: 12
 paginate_path: "/page:num/"
 
 # 导航菜单

@@ -1,0 +1,11 @@
+# www.robotstxt.org/
+# Allow crawling of all content
+User-agent: *
+Allow: /
+Sitemap: https://clashfreenodelist.github.io/sitemap.xml
+
+# Disallow admin and other private pages
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /tmp/ 
