@@ -5,12 +5,12 @@ author: Clash节点
 language: zh-CN
 timezone: Asia/Shanghai
 baseurl: ""
-url: "https://clashfreenodelist.github.io" 
+url: "https://www.freev2ray.net" 
 
 # 社交媒体链接
 social:
   twitter: your-twitter
-  github: clashfreenodelist.github.io
+  github: www.freev2ray.net
   telegram: your-telegram
 
 # SEO 设置
