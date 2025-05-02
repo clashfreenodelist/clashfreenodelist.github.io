@@ -1,20 +1,22 @@
 ---
 layout: post
-title: "Clash免费节点 | 4月28日22.2MM/S|免费Shadowrocket/V2ray/SSR/Clash订阅节点分享"
-date: 2025-04-29 12:00:00 +0800
+title: "Clash免费节点 | 5月2日21.9MM/S|免费Shadowrocket/V2ray/SSR/Clash订阅节点分享"
+date: 2025-05-02 12:00:00 +0800
 categories: nodes
 tags: [Clash, V2ray, SSR, Vmess, ss, ssr, trojan]
-image: https://cdn.pixabay.com/photo/2023/07/12/02/44/fox-8121538_1280.jpg
-speed: "22.2M/S"
+image: https://cdn.pixabay.com/photo/2020/06/15/19/49/fuchs-5303221_1280.jpg
+speed: "21.9M/S"
 
 ---
 
-本次更新节点，包括 [美国、英国、新加坡、加拿大、香港、欧洲] 等，复制下面的节点数据，导入或者粘贴到v2ray/iso小火箭/winxray/sing-box科学上网工具，直接使用即可；也可以使用下方的订阅链接，在v2ray/sing-box/winxray/iso小火箭/clash客户端订阅使用。
+本次更新节点，包括 [美国、英国、新加坡、加拿大、香港、欧洲、日本、韩国] 等，复制下面的节点数据，导入或者粘贴到v2ray/iso小火箭/winxray/sing-box科学上网工具，直接使用即可；也可以使用下方的订阅链接，在v2ray/sing-box/winxray/iso小火箭/clash客户端订阅使用。
+
 
 
 # 新发现节点
 
-本次更新节点，包括 [美国、英国、新加坡、加拿大、香港、欧洲] 等，复制下面的节点数据，导入或者粘贴到v2ray/iso小火箭/winxray/sing-box科学上网工具，直接使用即可；也可以使用下方的订阅链接，在v2ray/sing-box/winxray/iso小火箭/clash客户端订阅使用。
+本次更新节点，包括 [美国、英国、新加坡、加拿大、香港、欧洲、日本、韩国] 等，复制下面的节点数据，导入或者粘贴到v2ray/iso小火箭/winxray/sing-box科学上网工具，直接使用即可；也可以使用下方的订阅链接，在v2ray/sing-box/winxray/iso小火箭/clash客户端订阅使用。
+
 
 ### 高速机场推荐3【西游云】
 
@@ -49,13 +51,13 @@ speed: "22.2M/S"
 <span style="color:red">以下免费订阅一段时间后会失效，可关注本站获取更新，如需稳定使用，可购买前述机场，低至8元/月，速度可到500M/s</span> 
 
 **clash订阅链接**
- - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=clash&time=2025-04-29
+ - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=clash&time=2025-05-02
 
 **v2ray订阅链接:**
- - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=v2ray&time=2025-04-29
+ - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=v2ray&time=2025-05-02
 
 **sing-box订阅链接**
- - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=singbox&time=2025-04-29
+ - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=singbox&time=2025-05-02
 
 
 
