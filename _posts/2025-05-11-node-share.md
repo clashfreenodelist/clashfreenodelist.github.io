@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Clash免费节点 | 5月11日27.1M/S|免费Shadowrocket/V2ray/SSR/Clash订阅节点分享"
-date: 2025-05-11 12:00:00 +0800
+title: "Clash免费节点 | 5月12日23.5M/S|免费Shadowrocket/V2ray/SSR/Clash订阅节点分享"
+date: 2025-05-12 12:00:00 +0800
 categories: nodes
 tags: [Clash, V2ray, SSR, Vmess, ss, ssr, trojan]
-image: https://cdn.pixabay.com/photo/2020/03/01/15/30/fox-4893199_1280.jpg
-speed: "27.1M/S"
+image: https://cdn.pixabay.com/photo/2016/11/22/19/26/fox-1850186_1280.jpg
+speed: "23.5M/S"
 
 ---
 
@@ -51,15 +51,13 @@ speed: "27.1M/S"
 <span style="color:red">以下免费订阅一段时间后会失效，可关注本站获取更新，如需稳定使用，可购买前述机场，低至8元/月，速度可到500M/s</span> 
 
 **clash订阅链接**
- - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=clash&time=2025-05-11
+ - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=clash&time=2025-05-12
 
 **v2ray订阅链接:**
- - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=v2ray&time=2025-05-11
+ - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=v2ray&time=2025-05-12
 
 **sing-box订阅链接**
- - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=singbox&time=2025-05-11
-
-
+ - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=singbox&time=2025-05-12
 
 
 
