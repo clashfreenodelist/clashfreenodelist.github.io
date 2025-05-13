@@ -1,22 +1,19 @@
 ---
 layout: post
-title: "Clash免费节点 | 5月11日23.5M/S|免费Shadowrocket/V2ray/SSR/Clash订阅节点分享"
-date: 2025-05-11 12:00:00 +0800
+title: "2025年4月20日新发现节点推荐"
+date: 2025-04-20 12:00:00 +0800
 categories: nodes
-tags: [Clash, V2ray, SSR, Vmess, ss, ssr, trojan]
-image: https://cdn.pixabay.com/photo/2016/11/22/19/26/fox-1850186_1280.jpg
-speed: "23.5M/S"
+tags: [Clash, V2ray, SSR, Shadowrocket]
+image: https://cdn.pixabay.com/photo/2022/08/06/12/34/corsac-fox-7368515_1280.jpg
+speed: "19.4M/S"
 
 ---
 
-本次更新节点，包括 [香港、欧洲、日本、韩国] 等，复制下面的节点数据，导入或者粘贴到v2ray/iso小火箭/winxray/sing-box科学上网工具，直接使用即可；也可以使用下方的订阅链接，在v2ray/sing-box/winxray/iso小火箭/clash客户端订阅使用。
-
-
+这一次的节点更新覆盖了日本、欧洲、美国、香港、新加坡、加拿大、韩国等地区,最高速度可达19.4 M/S。只需复制下方的Clash/v2ray订阅链接,在客户端添加后即可正常使用。
 
 # 新发现节点
 
-本次更新节点，包括 [美国、英国、新加坡、加拿大、香港、欧洲、日本、韩国] 等，复制下面的节点数据，导入或者粘贴到v2ray/iso小火箭/winxray/sing-box科学上网工具，直接使用即可；也可以使用下方的订阅链接，在v2ray/sing-box/winxray/iso小火箭/clash客户端订阅使用。
-
+这次的更新跨足了美国、新加坡、加拿大、日本、欧洲、韩国、香港等多个地区，节点覆盖广泛，最高速度可达18.3 M/S。这意味着，无论您身处何处，都能享受到更快、更稳定的网络连接。这些新节点的加入，不仅为您提供了更广泛的网络覆盖，还能让您轻松解锁全球各地的网络内容，尽情畅游互联网。无论是日本的动漫、美国的影视、还是欧洲的新闻，都能够一手掌握。只需复制下方提供的v2ray/Clash订阅链接，添加到您的客户端，就能立即体验到新节点带来的畅快感受。这次更新的目的就是为了让您拥有更畅快、更愉悦的网络体验，享受高速流畅的网络连接。随着全球互联网的发展，网络已经成为我们生活中不可或缺的一部分，而这次更新就是为了让您更好地融入这个数字化的世界。
 
 ### 高速机场推荐1【星辰VPN】
 
@@ -25,8 +22,6 @@ speed: "23.5M/S"
 网站注册地址：[星辰VPN](https://168.138.167.139/#/register?code=tpwfnPBH)
 
 注：跳转链接可能会 **被墙** ，如多次打开失败，请先使用下面不稳定免费订阅后，再尝试点击链接
-
-
 
 ### 高速机场推荐3【西游云】
 
@@ -51,14 +46,13 @@ speed: "23.5M/S"
 <span style="color:red">以下免费订阅一段时间后会失效，可关注本站获取更新，如需稳定使用，可购买前述机场，低至8元/月，速度可到500M/s</span> 
 
 **clash订阅链接**
- - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=clash&time=2025-05-12
+ - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=clash&time=2025-05-14
 
 **v2ray订阅链接:**
- - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=v2ray&time=2025-05-12
+ - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=v2ray&time=2025-05-14
 
 **sing-box订阅链接**
- - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=singbox&time=2025-05-12
-
+ - https://free.xcvpn.us/api/v1/client/subscribe?token=de4f51186650007cd32843372e357224&flag=singbox&time=2025-05-14
 
 
 如果您需要高质量的付费服务,我们强烈推荐您试试「[星辰VPN](https://168.138.167.139/#/register?code=tpwfnPBH)」。提供全球范围内快速稳定的高速节点,轻松处理8K高清视频流量,并可解锁流媒体网站和chatGPT。其服务器性能出色,确保您享受到高品质的体验。 
